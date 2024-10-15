@@ -11,6 +11,7 @@ import java.util.ArrayList;
 @Builder
 public class Autor {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String nombre;
