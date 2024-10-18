@@ -11,15 +11,14 @@ import lombok.Setter;
 @AllArgsConstructor @NoArgsConstructor
 public class Libro {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String titulo;
     private String genero;
     private String publicion;
     private String estado;
-
     @ManyToOne
     @JoinColumn(name = "autor_id")
-    private Autor Autor;
+    private Autor autor;
 }
