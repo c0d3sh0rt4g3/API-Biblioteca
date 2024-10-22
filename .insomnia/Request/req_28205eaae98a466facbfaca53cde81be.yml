@@ -1,0 +1,23 @@
+_id: req_28205eaae98a466facbfaca53cde81be
+type: Request
+parentId: wrk_4c231237765a465a9a25f4eb93d3ba62
+modified: 1729588121362
+created: 1729587940850
+url: "{{ _.booksBaseUrl }}"
+name: Get all books
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1729587940850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
