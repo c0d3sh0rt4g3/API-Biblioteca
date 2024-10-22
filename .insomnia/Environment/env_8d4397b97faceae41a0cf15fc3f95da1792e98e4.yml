@@ -1,0 +1,14 @@
+_id: env_8d4397b97faceae41a0cf15fc3f95da1792e98e4
+type: Environment
+parentId: wrk_4c231237765a465a9a25f4eb93d3ba62
+modified: 1729588064418
+created: 1728907811179
+name: Base Environment
+data:
+  booksBaseUrl: http://localhost:8080/libros
+dataPropertyOrder:
+  "&":
+    - booksBaseUrl
+color: null
+isPrivate: false
+metaSortKey: 1728907811179
